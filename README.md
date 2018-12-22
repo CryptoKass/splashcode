@@ -5,6 +5,14 @@ SplashCode is a work in progress
 
 _SplashCode is a very simple forth-like language, inspired by bitcoin Script. Designed to be run in transactions. Eventually this, or something like with will be used with the Splash Blockchain_ 
 
+- Stack-based language (Last In - First Out).
+- Processed from left to right.
+- For loops and functions can be disabled. (They should be for transactional use).
+- Not Turing Complete.
+- Some opperations use implicit variables gathered from the transaction.
+
+</br>
+
 Example:
 ```
 "Starting...", PRINTLN, DROP
