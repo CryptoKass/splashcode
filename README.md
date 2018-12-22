@@ -54,6 +54,10 @@ Starting...
 [Done 0.09ms]
 ```
 
+Input Files:
+*.sc files contains the standard splashcode, it will be tokenized and parsed into a runable program.
+*.scb files contains compiled bytes, which are unmarshaled to a runable program.
+
 ---
 
 ## Types
