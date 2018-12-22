@@ -12,6 +12,20 @@ Features:
 - Not Turing Complete.
 - Some opperations use implicit variables gathered from the transaction.
 
+Usage:
+- `-help`
+    displays command information.
+- `-compile string`
+    compile to a given a filepath.
+- `-debug`
+    print additional debuging messages.
+- `-file string`
+    path to a *.sb or .sbc file.
+- `-input string`
+    set input for program, the input will be parsed into a Token (default "-1").
+- `-trace`
+    display stack trace on run.
+
 Example:
 ```
 "Starting...", PRINTLN, DROP
