@@ -12,8 +12,6 @@ Features:
 - Not Turing Complete.
 - Some opperations use implicit variables gathered from the transaction.
 
-</br>
-
 Example:
 ```
 "Starting...", PRINTLN, DROP
@@ -46,6 +44,7 @@ Starting...
 
 ## Types
 Types are directly added to the stack on execution.
+
 | Type      | Example    |
 |:----------|:-----------|
 | INT       | `7` `54`   |
@@ -57,6 +56,7 @@ Types are directly added to the stack on execution.
 
 ## Arithmetic:
 Arithmetic operations pop two previous numbers from stack and pushes a result.
+
 | Word | Opcode | Input | Output | Description |
 |:-----|:-------|:-------------|:-------|:------------|
 | ADD  | 16     |number, number| number | Pops two numbers from stack, adds them and pushes the result back to the stack.|
@@ -68,6 +68,7 @@ Arithmetic operations pop two previous numbers from stack and pushes a result.
 
 ## Other Key Words:
 Key words modify or read or add elements to the stack
+
 | Word | Opcode | Input | Output | Description |
 |:-----|:-------|:-------------|:-------|:------------|
 | GOTO    | 5      | string    |        | Goto will move the execution to a Supplied Marker or Function. | 
